@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+body{
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #F7F7FB; 
+	min-height: 50%;
+	background-image: url("./images/rasm.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	height: 100%;
+}
+.main-part{
+	width: 515px;
+	height: 117px;
+	margin-bottom: 300px;
+}
+.main-part-title{
+	font-size: 60px;
+	width: 600px;
+	padding-bottom: 30px;
+}
+.main-part-text{
+	line-height: 2;
+	font-size: 21px;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.6);
+
+}
+.main-part-list{
+	display: flex;
+	margin: 5px;
+}
+.main-list{
+	margin-top: 50px;
+}
+
+.main-part-item{
+	padding-right: 15px;
+	margin-bottom: 10px;
+}
+.lifetime{
+	padding-left: 25px;
+}
+.main-part-item::before{
+	content:"";
+	display: inline-block;
+	background: url("./images/icon.png");
+	background-size: cover;
+	transform:translate(-5px, 3px);
+	width: 20px;	
+	height: 20px;	
+}
+.section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+.section-main{
+	padding-top: 350px;
+	margin-right: 200px;
+}
+.section-image-icon{
+	margin-top: 400px;
+	/*width: 600px;*/
+	/*height: 864px;*/
+}
+.section-main-title{
+	width: 400px;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.section-main-subtext{
+	width: 400px;
+	line-height: 2;
+	color: rgba(0,0,0,0.5);
+	margin-bottom: 30px;
+}
+.section-main-t-two{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.section-main-p-two{
+	width: 370px;
+	margin-bottom: 20px;
+	line-height: 2;
+	color: rgba(0,0,0,0.5);
+	padding-left: 40px;
+}
+.section-main-t-two::before{
+	content:"";
+	display: inline-block;
+	background: url("./images/iconicon.png");
+	background-size: cover;
+	transform:translate(-20px, 25px);
+	width: 40px;	
+	height: 40px;	
+	margin-top: 0px;
+}
+.section-main-tt-two::before{
+	content:"";
+	display: inline-block;
+	background: url("./images/iconicon-2.png");
+	background-size: cover;
+	transform:translate(-20px, 40px);
+	width: 40px;	
+	height: 40px;	
+	font-size: 20px;
+	margin-bottom: 20px;
+}
